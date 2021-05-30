@@ -1,0 +1,22 @@
+.iconCaret{
+    font-size: 20px;
+    margin-left: 10px;
+}
+.Navbar{
+    z-index: 5000 ;
+    background-color: #3e0748;
+    color:#ea1d63;
+}
+.navHFP a{
+    color: white!important;
+}
+.navHFP a:hover,.navHFP a.active,.navbar-brand:hover{
+    color: #ea1d63!important;
+}
+.authBtn{
+    color: white;
+    margin: 10px;
+}
+.authBtn:hover{
+    color: #ea1d63;
+}

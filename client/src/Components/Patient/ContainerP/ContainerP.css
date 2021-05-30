@@ -1,0 +1,28 @@
+.testc,.myappointments{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.filtrage{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+.filtrage div{
+    display: flex;
+    line-height: 25px;
+}
+.filtrage div select{
+    margin-left: 20px;
+    min-width: 120px;
+    border-radius: 10%;
+}
+.iconAppoint{
+    color: #3e0748;
+    font-size: 30px;
+}
+.tdIcon {
+    width: 180px;
+    text-align: center;
+    cursor: pointer;
+}

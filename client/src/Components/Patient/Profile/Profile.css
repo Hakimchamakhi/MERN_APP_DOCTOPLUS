@@ -1,0 +1,9 @@
+.ProfileContainer{
+    width : 90%;
+    margin-top: 20px;
+}
+.ProfileContainer .fullname{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}

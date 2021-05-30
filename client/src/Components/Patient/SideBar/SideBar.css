@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+body{
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+} 
+/* Track */
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #ea1d63; 
+    border-radius: 10px;
+}
+.navigation{
+    width: 60px;
+    height: 92vh;
+    background-color: #3e0748;
+    transition: 0.5s;
+    overflow: hidden;
+    padding-bottom: 40px;
+}
+.navigation:hover,
+.navigation.active
+{
+    width: 300px;
+    overflow: auto;
+}
+.navigation .ul{
+    position: relative;
+    width: 100%;
+}
+.navigation .ul .categoriesBox:hover{
+    background-color: #ea1d63;
+}
+.navigation .ul .categoriesBox {
+    position: relative;
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+    padding : 0 60px;
+    line-height: 60px;
+    text-align: start;
+    white-space: nowrap;
+    cursor: pointer;
+}
+.searchBox{
+    display: inline-flex;
+    padding: 15px;
+    line-height: 15px;
+}
+.search{
+    border: #fff solid;
+    border-radius: 25px;
+    color: #fff;
+    background-color: #3e0748;
+    margin-left: 20px;
+    padding: 5px;
+}
+.iconSearch{
+    font-size: 32px;
+    color: #fff;
+}
+.AccountBox,.logOutBox,.categoryBox,.AppointmentBox{
+    display: inline-flex;
+    padding: 12px;
+    line-height: 30px;
+    width: 100%;
+    white-space: nowrap;
+    cursor: pointer;
+}
+.AccountBox:hover,.logOutBox:hover,.categoryBox:hover,.AppointmentBox:hover{
+    text-decoration: none;
+    background-color: #ea1d63;
+}
+.iconAccount{
+    font-size: 32px;
+    color: #fff;
+}
+.iconLogOut,.iconCategory,.iconAppointment{
+    font-size: 36px;
+    color: #fff;
+}
+.logOutSetting,.category,.AppointmentSetting{
+    color: #fff;
+    margin-left: 20px;
+    padding: 5px;
+}
+.navigation a:hover{
+    text-decoration: none;
+    color: white;
+} 
+.accountSetting{
+    color: #fff;
+    margin-left: 15px;
+    padding: 5px;
+}

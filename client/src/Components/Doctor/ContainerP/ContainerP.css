@@ -1,0 +1,17 @@
+.addSpan{
+    color: #3e0748;
+    margin: 20px;
+    cursor: pointer;
+    font-size: medium;
+    font-weight: bold;
+}
+.testc form{
+    margin: 30px;
+}
+.testc label{
+    margin: 13px;
+}
+.testc form .btn{
+    background-color : #3e0748 ;
+    color: white;
+}
